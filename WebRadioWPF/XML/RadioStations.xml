@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<stations>
+
+  <station >
+    <url>http://uplink.intronic.nl/rgrfm_oldiesradio</url>
+    <id>2</id>
+    <name>Oldiesradio RGR</name>
+    <genre>Oldies</genre>
+    <country></country>
+
+  </station>
+  <station >
+    <url>http://199.58.160.146:8006/</url>
+    <id>3</id>
+    <name>Psychedelicized Radio</name>
+    <genre>Psychedelicized</genre>
+    <country></country>
+
+  </station>
+  <station >
+    <url>http://wgltradio.ilstu.edu:8000/wgltjazz.mp3</url>
+    <id>1</id>
+    <name>GLT Jazz Radio</name>
+    <genre>Jazz</genre>
+    <country></country>
+
+  </station>
+</stations>

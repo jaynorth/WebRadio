@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WebRadioWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="MainWindow" Height="405.342" Width="536.966">
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+        <MediaElement Name="Player" LoadedBehavior="Manual" Height="10" VerticalAlignment="Top" Width="100"/>
+        <Button Name="PlayBtn" Margin="0,0,110,0" Width="100" Height="50" Click="PlayBtn_Click" Content="Play" />
+        <Button Name="StopBtn" Margin="110,0,0,0" Width="100" Height="50" Click="StopBtn_Click" Content="Stop" />
+        <ListBox Margin="0,67,0,-128"></ListBox>
+        <Button Name="ReadXML" Content="readXML" Margin="-151,67,230,-68" Click="ReadXML_Click"></Button>
+        <TextBox x:Name="txtResult" HorizontalAlignment="Left" Height="83" Margin="237,74,-147,-107" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
     </Grid>
 </Window>
